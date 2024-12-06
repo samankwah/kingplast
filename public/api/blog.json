@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Sustainable Building Materials: The Future of Green Construction",
+    "author": "Emma Green",
+    "date": "June 15, 2024",
+    "imageUrl": "/sustainable-materials.jpg",
+    "excerpt": "Explore innovative eco-friendly materials revolutionizing the construction industry and reducing environmental impact.",
+    "readTime": 7,
+    "comments": 12
+  },
+  {
+    "id": 2,
+    "title": "Zero-Waste Home Design Strategies",
+    "author": "Alex Rodriguez",
+    "date": "May 22, 2024",
+    "imageUrl": "/zero-waste-home.jpg",
+    "excerpt": "Practical tips for creating a home that minimizes waste and maximizes sustainability in every aspect of design.",
+    "readTime": 5,
+    "comments": 8
+  },
+  {
+    "id": 3,
+    "title": "Renewable Energy in Modern Architecture",
+    "author": "Sarah Thompson",
+    "date": "July 3, 2024",
+    "imageUrl": "/renewable-energy-arch.jpg",
+    "excerpt": "How architects are integrating solar, wind, and other renewable energy sources into cutting-edge building designs.",
+    "readTime": 6,
+    "comments": 15
+  },
+  {
+    "id": 4,
+    "title": "Urban Gardening: Transforming City Spaces",
+    "author": "Michael Chen",
+    "date": "April 10, 2024",
+    "imageUrl": "/urban-gardening.jpg",
+    "excerpt": "Innovative approaches to creating green spaces and sustainable agriculture in urban environments.",
+    "readTime": 5,
+    "comments": 9
+  }
+]
