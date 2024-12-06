@@ -71,7 +71,7 @@ const ProductsPage = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6 text-green-800">
+      <h1 className="text-3xl font-bold mb-6 text-blue-900">
         Our Sustainable Products
       </h1>
 
@@ -131,7 +131,9 @@ const ProductsPage = () => {
               className="w-full h-72 object-cover rounded-t-lg"
             />
             <div className="p-4">
-              <h2 className="text-xl font-bold mb-2">{product.name}</h2>
+              <h2 className="text-xl text-yellow-600 font-bold mb-2">
+                {product.name}
+              </h2>
               <p className="text-gray-600 mb-4">{product.description}</p>
               <div className="flex justify-between items-center">
                 <span className="text-yellow-700 font-bold">

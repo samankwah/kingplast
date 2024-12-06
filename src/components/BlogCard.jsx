@@ -18,7 +18,8 @@ const BlogCard = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get("/api/blogs.json");
+        const response = await axios.get("/api/blog.json");
+        console.log("response--->", response.data);
         setBlogs(response.data);
         setFeaturedBlog(response.data[0]); // Set first blog as featured
       } catch (error) {

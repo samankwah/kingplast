@@ -8,12 +8,13 @@ const HeroSection = () => {
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
 
   return (
-    <section className="relative bg-gradient-to-r from-blue-800 to-yellow-400 text-white py-16 lg:py-24">
+    <section className="relative bg-gradient-to-r from-blue-900 to-yellow-600 text-white py-16 lg:py-24">
       <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-8 items-center">
         {/* Content Section */}
         <div className="text-center lg:text-left">
           <h1 className="text-4xl lg:text-5xl font-extrabold mb-6 leading-tight">
-            Sustainable Building with KingPlast
+            Sustainable Building with{" "}
+            <span className="text-blue-900">KingPlast</span>
           </h1>
           <p className="text-lg lg:text-xl mb-8 text-white/90 max-w-xl mx-auto lg:mx-0">
             Transforming waste into durable, eco-friendly building materials
