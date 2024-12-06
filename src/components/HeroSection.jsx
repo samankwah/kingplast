@@ -13,8 +13,7 @@ const HeroSection = () => {
         {/* Content Section */}
         <div className="text-center lg:text-left">
           <h1 className="text-4xl lg:text-5xl font-extrabold mb-6 leading-tight">
-            Sustainable Building with{" "}
-            <span className="text-blue-900">KingPlast</span>
+            Sustainable Building with KingPlast
           </h1>
           <p className="text-lg lg:text-xl mb-8 text-white/90 max-w-xl mx-auto lg:mx-0">
             Transforming waste into durable, eco-friendly building materials
