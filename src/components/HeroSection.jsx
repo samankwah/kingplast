@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-8 items-center">
         {/* Content Section */}
         <div className="text-center lg:text-left">
-          <h1 className="text-4xl lg:text-5xl font-extrabold mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl  md:text-6xl font-bold leading-snug">
             Sustainable Building with KingPlast
           </h1>
           <p className="text-lg lg:text-xl mb-8 text-white/90 max-w-xl mx-auto lg:mx-0">

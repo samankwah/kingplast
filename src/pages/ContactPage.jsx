@@ -77,7 +77,7 @@ function ContactPage() {
                     href="mailto:lydiaamoofo09@gmail.com"
                     className="hover:text-gray-800"
                   >
-                    support@kingplastcl.com
+                    support@kingplastlc.com
                   </a>
                 </span>
               </li>
