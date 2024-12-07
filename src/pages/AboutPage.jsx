@@ -94,7 +94,7 @@ const AboutPage = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
         },
       },
     ],
@@ -108,7 +108,7 @@ const AboutPage = () => {
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-8 leading-tight">
             <span className="text-blue-900">About</span>
             <span className="text-yellow-500"> KingPlast </span>
-            <span className="text-blue-900"> Company Limited </span>
+            <span className="text-blue-900"> Limited Company</span>
           </h1>
           <div className="max-w-2xl mx-auto">
             <p className="text-xl text-gray-700 leading-relaxed">

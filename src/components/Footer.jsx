@@ -261,7 +261,7 @@ function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4">About Kingplast</h3>
           <p className="text-sm">
-            KingPlast Company Limited recycles plastic waste into high-quality,
+            KingPlast Limited Company recycles plastic waste into high-quality,
             affordable building materials. Join us in creating sustainable and
             eco-friendly solutions for a better future.
           </p>
@@ -312,7 +312,7 @@ function Footer() {
                 href="mailto:lydiaamoofo09@gmail.com"
                 className="text-gray-400 hover:text-white"
               >
-                📧 support@kingplastcl.com
+                📧 support@kingplastlc.com
               </a>
             </li>
             <li>📞 +233 54 413 7152</li>
@@ -355,7 +355,7 @@ function Footer() {
       </div>
 
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
-        <p>© 2024 KingPlast Company Limited. All rights reserved.</p>
+        <p>© 2024 KingPlast Limited Company. All rights reserved.</p>
       </div>
     </footer>
   );
