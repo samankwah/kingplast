@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import PageNotFound from "../assets/icons/undraw_page_not_found.svg";
 
