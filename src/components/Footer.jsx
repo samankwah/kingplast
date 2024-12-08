@@ -4,8 +4,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-10">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="bg-[#0f172a] text-white py-10">
+      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* About Section */}
         <div>
           <h3 className="text-xl font-semibold mb-4">About Kingplast</h3>
