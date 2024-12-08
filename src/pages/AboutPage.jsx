@@ -102,7 +102,7 @@ const AboutPage = () => {
 
   return (
     <div className="bg-gray-50 min-h-screen">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container max-w-7xl mx-auto px-4 py-16">
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-8 leading-tight">

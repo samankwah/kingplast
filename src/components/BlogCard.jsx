@@ -31,7 +31,7 @@ const BlogCard = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container max-w-7xl mx-auto px-4 py-8 shadow-2xl">
       {/* Hero Section */}
       <div className="bg-blue-50 rounded-lg p-8 mb-12 flex items-center">
         <div className="w-2/3">
@@ -46,11 +46,11 @@ const BlogCard = () => {
             Explore Insights <ArrowRight className="ml-2" />
           </button>
         </div>
-        <div className="w-1/3 pl-8">
+        <div className="w-full md:w-1/3 md:pl-8 mt-4 md:mt-0">
           <img
             src={Hero}
             alt="Sustainable Living"
-            className="rounded-lg shadow-lg"
+            className="w-full h-auto rounded-lg shadow-lg"
           />
         </div>
       </div>
@@ -105,7 +105,7 @@ const BlogCard = () => {
                 <img
                   src={Recycle}
                   alt={blog.title}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-80 object-cover"
                 />
                 <div className="p-4">
                   <div className="flex justify-between text-sm text-gray-600 mb-2">

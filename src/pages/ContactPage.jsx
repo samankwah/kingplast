@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 function ContactPage() {
   return (
     <div className="py-12 bg-gray-50">
-      <div className="container mx-auto px-4">
+      <div className="container max-w-7xl mx-auto px-4">
         {/* Page Title */}
         <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-8">
           Get in Touch

@@ -70,7 +70,7 @@ const ProductsPage = () => {
   }, [searchTerm, activeFilters, sortOption, products]);
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container max-w-7xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6 text-blue-900">
         Our Sustainable Products
       </h1>
@@ -136,7 +136,7 @@ const ProductsPage = () => {
               </h2>
               <p className="text-gray-600 mb-4">{product.description}</p>
               <div className="flex justify-between items-center">
-                <span className="text-yellow-700 font-bold">
+                <span className="text-blue-900 font-bold">
                   ₵{products?.map((product) => product.price?.toFixed(2))}
                 </span>
                 {/* <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">

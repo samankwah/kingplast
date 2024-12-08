@@ -50,7 +50,7 @@ function Navbar() {
 
       {/* Navbar */}
       <nav className="bg-[#0F172A] text-white shadow-md sticky top-0 z-50">
-        <div className="container mx-auto flex justify-between items-center py-3 px-6">
+        <div className="container max-w-7xl mx-auto flex justify-between items-center py-3 px-6">
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img src={logo} alt="KingPlast Logo" className="h-12 w-auto" />
