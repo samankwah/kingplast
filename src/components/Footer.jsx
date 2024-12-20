@@ -8,7 +8,7 @@ function Footer() {
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* About Section */}
         <div>
-          <h3 className="text-xl font-semibold mb-4">About Kingplast</h3>
+          <h3 className="text-xl font-semibold mb-4">About KingPlast</h3>
           <p className="text-sm">
             KingPlast Limited Company recycles plastic waste into high-quality,
             affordable building materials. Join us in creating sustainable and

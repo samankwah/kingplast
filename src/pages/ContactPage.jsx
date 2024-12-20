@@ -1,6 +1,6 @@
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { BsFacebook, BsTwitterX, BsInstagram } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaTiktok } from "react-icons/fa";
 
 function ContactPage() {
   return (
@@ -94,7 +94,7 @@ function ContactPage() {
               </h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://facebook.com"
+                  href="https://web.facebook.com/profile.php?id=61569529484943"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-900 hover:text-blue-700 transition"
@@ -110,7 +110,7 @@ function ContactPage() {
                   <BsTwitterX size={24} />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/kingplastlimitedcompany/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-900 hover:text-blue-700 transition"
@@ -124,6 +124,14 @@ function ContactPage() {
                   className="text-blue-900 hover:text-blue-700 transition"
                 >
                   <FaLinkedin size={24} />
+                </a>
+                <a
+                  href="https://vm.tiktok.com/ZMkL54C5R/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-900 hover:text-blue-700 transition"
+                >
+                  <FaTiktok size={24} />
                 </a>
               </div>
             </div>
@@ -156,7 +164,7 @@ function ContactPage() {
             </div>
             <div className="bg-white shadow rounded-lg p-6">
               <h3 className="text-lg font-semibold text-gray-700 mb-2">
-                Can I collaborate with Kingplast?
+                Can I collaborate with KingPlast?
               </h3>
               <p className="text-gray-600">
                 Absolutely! We welcome partnerships with individuals and
