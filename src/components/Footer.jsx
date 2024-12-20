@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { BsFacebook, BsTwitterX, BsInstagram } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaTiktok } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -68,7 +68,7 @@ function Footer() {
           </ul>
           <div className="flex space-x-4 mt-6">
             <a
-              href="https://facebook.com"
+              href="https://web.facebook.com/profile.php?id=61569529484943"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
@@ -84,7 +84,7 @@ function Footer() {
               <BsTwitterX size={24} />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/kingplastlimitedcompany/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
@@ -99,12 +99,23 @@ function Footer() {
             >
               <FaLinkedin size={24} />
             </a>
+            <a
+              href="https://vm.tiktok.com/ZMkL54C5R/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white"
+            >
+              <FaTiktok size={24} />
+            </a>
           </div>
         </div>
       </div>
 
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
-        <p>© 2024 KingPlast Limited Company. All rights reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} KingPlast Limited Company. All
+          rights reserved.
+        </p>
       </div>
     </footer>
   );

@@ -78,12 +78,12 @@ const AboutPage = () => {
   // Carousel Settings
   const sliderSettings = {
     infinite: true,
-    speed: 500,
+    speed: 3000,
     slidesToShow: 4,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 3000,
-    slidesToScroll: 1,
+    autoplaySpeed: 0,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 1024,
