@@ -68,7 +68,7 @@ function ContactPage() {
             <ul className="space-y-6">
               <li className="flex items-center space-x-4">
                 <FaPhone className="text-blue-900 w-6 h-6" />
-                <span className="text-gray-600">+233 54 413 7152</span>
+                <span className="text-gray-600">+233201669121</span>
               </li>
               <li className="flex items-center space-x-4">
                 <FaEnvelope className="text-blue-900 w-6 h-6" />
@@ -77,7 +77,7 @@ function ContactPage() {
                     href="mailto:lydiaamoofo09@gmail.com"
                     className="hover:text-gray-800"
                   >
-                    support@kingplastlc.com
+                    kingplastLtd.co@gmail.com
                   </a>
                 </span>
               </li>
