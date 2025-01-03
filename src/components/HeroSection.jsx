@@ -8,7 +8,7 @@ const HeroSection = () => {
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-900 to-yellow-400 text-white py-16 lg:py-24">
+    <section className="relative bg-gradient-to-br from-blue-900 to-yellow-500 text-white py-16 lg:py-24">
       <div className="container max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-8 items-center">
         {/* Content Section */}
         <div className="text-center lg:text-left">
